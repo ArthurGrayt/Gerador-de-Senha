@@ -20,10 +20,12 @@ body{
     margin: bottom 24px;
 }
 .container-input{
+    text-align: center;
     max-width: 480px;
     margin: 14px 0;
 }
 .container-input span{
+   
     color: white;
     font-size:22px;
 }
@@ -38,7 +40,7 @@ body{
 }
 .button-cta{
     height:40px;
-    background-color: blue;
+    background-color: rgb(100, 43, 10);
     border: 0;
     border-radius:4px;
     cursor: pointer;
