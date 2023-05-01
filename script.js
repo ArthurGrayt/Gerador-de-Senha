@@ -9,7 +9,7 @@ let containerPassword=document.querySelector("#container-password");
 let charset="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
 let novaSenha="";
 
-sizePassword.innerHTML="sliderElement.value";
+sizePassword.innerHTML=15; // valor padrão para caracteres
 
 slider.oninput= function(){
     sizePassword.innerHTML=this.value;
